@@ -9,4 +9,4 @@ function signMessage(msg) {
     return recovery;
 }
 
-console.log(signMessage("Hello World!"));
+module.exports = signMessage;

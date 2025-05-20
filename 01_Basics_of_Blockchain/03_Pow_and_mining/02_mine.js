@@ -42,7 +42,11 @@ function mine() {
 
 addTransaction({ from: 'Alice', to: 'Bob', amount: 10 });
 addTransaction({ from: 'Bob', to: 'Alice', amount: 5 });
-addTransaction({ from: 'Alice', to: 'Charlie', amount: 2 });
+
+// Show how a small change in the transaction affects the hash and nonce count!
+
+// addTransaction({ from: 'Alic', to: 'Charlie', amount: 2 });
+addTransaction({ from: 'Alic', to: 'Charlie', amount: 2 });
 
 mine();
 console.log(blocks)

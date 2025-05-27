@@ -9,4 +9,11 @@ function signMessage(msg) {
     return recovery;
 }
 
+// Give a sample output of the above function
+const sampleMessage = "Hello, Blockchain!";
+const signature = signMessage(sampleMessage);
+console.log("Message:", sampleMessage);
+console.log("Signature:", signature);
+
+
 module.exports = signMessage;

@@ -47,6 +47,5 @@ addTransaction({ from: 'Bob', to: 'Alice', amount: 5 });
 
 // addTransaction({ from: 'Alic', to: 'Charlie', amount: 2 });
 addTransaction({ from: 'Alic', to: 'Charlie', amount: 2 });
-
 mine();
 console.log(blocks)
